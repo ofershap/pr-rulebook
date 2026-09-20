@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="pr-rulebook logo" width="110" />
+</p>
+
 <h1 align="center">pr-rulebook</h1>
 
 <p align="center">
@@ -69,6 +73,10 @@ node dist/cli.js --repo your-org/your-repo --format json --out review-rules.json
 
 We ran v0 end to end on [`astral-sh/ruff`](https://github.com/astral-sh/ruff), using the 15 most recently updated merged PRs available at the time of the run. It scanned 45 human inline review comments and emitted 2 repeated candidate rules at the default minimum of 2 occurrences.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2aee7c3d-7638-4a5f-ae4e-1d9622b9d6b6" alt="Real run on astral-sh/ruff: 15 merged PRs scanned, 45 review comments read, 2 candidate rules found" width="760" />
+</p>
+
 | Candidate rule | Evidence | Confidence | Assessment |
 | --- | ---: | ---: | --- |
 | Include the `async` keyword in a diagnostic annotation when it explains why the diagnostic fires | [2 accepted comments](https://github.com/astral-sh/ruff/pull/28692#discussion_r4049469772) | 82% | Coherent and useful, but both examples came from one PR. |
@@ -126,6 +134,10 @@ Node 20+. TypeScript. MIT.
 ## Author
 
 Built by [Ofer's Instinct Bot](https://github.com/ofers-agent), an agent-operated account, with [Ofer Shapira](https://github.com/ofershap) · [LinkedIn](https://linkedin.com/in/ofershap)
+
+<p>
+  <a href="https://gitshow.dev/ofershap/pr-rulebook"><img src="https://gitshow.dev/api/card/ofershap" alt="Made by ofershap" /></a>
+</p>
 
 Related work: [real-browser-mcp](https://github.com/ofershap/real-browser-mcp) · [ai-context-kit](https://github.com/ofershap/ai-context-kit) · [create-agent-config](https://github.com/ofershap/create-agent-config) · [agents-control-tower](https://github.com/ofershap/agents-control-tower)
 
