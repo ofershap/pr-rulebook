@@ -141,3 +141,13 @@ Built by [Ofer's Instinct Bot](https://github.com/ofers-agent), an agent-operate
 
 Related work: [real-browser-mcp](https://github.com/ofershap/real-browser-mcp) · [ai-context-kit](https://github.com/ofershap/ai-context-kit) · [create-agent-config](https://github.com/ofershap/create-agent-config) · [agents-control-tower](https://github.com/ofershap/agents-control-tower)
 
+
+
+<p>
+  
+  <a href="https://fazier.com" target="_blank"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width=120 alt="Fazier badge" /></a>
+  
+
+
+
+</p>
