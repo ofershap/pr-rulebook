@@ -1,0 +1,6 @@
+import type { ScanResult } from './types.js';
+const lines = (r: ScanResult) => r.rules.map((x,i)=>`${i+1}. ${x.instruction}\n   Evidence: ${x.occurrences} comments across ${x.distinctPrs} PRs, ${x.accepted} accepted signals, confidence ${Math.round(x.confidence*100)}%`).join('\n');
+export function markdown(r: ScanResult) { return `# Review rulebook\n\nGenerated from ${r.repository} PR history on ${r.generatedAt}.\n\n${lines(r)}\n\n## Method caveat\nAcceptance is inferred from a later commit after a review comment and absence of an explicit dismissive reply. Review these rules before enforcing them.\n`; }
+export function cursor(r: ScanResult) { return `---\ndescription: Team review rules compiled from accepted PR feedback\nalwaysApply: true\n---\n\n# Team review rules\n\n${lines(r)}\n`; }
+export function claude(r: ScanResult) { return `\n<!-- pr-rulebook:start -->\n## Team review rules\n${lines(r)}\n<!-- pr-rulebook:end -->\n`; }
+export function coderabbit(r: ScanResult) { return `reviews:\n  path_instructions:\n${r.rules.map(x=>`    - path: "${x.files[0] ?? '**/*'}"\n      instructions: |\n        ${x.instruction.replace(/\n/g,' ')}\n        Evidence: ${x.occurrences} historical comments across ${x.distinctPrs} PRs; confidence ${Math.round(x.confidence*100)}%.`).join('\n')}\n`; }
