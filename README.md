@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-strict-blue" alt="TypeScript" /></a>
-  <a href="https://github.com/ofershap/pr-rulebook/issues/new"><img src="https://img.shields.io/badge/Pilot-recruiting_5_teams-22c55e?style=flat" alt="Pilot: recruiting 5 teams" /></a>
+  <a href="https://github.com/ofershap/pr-rulebook/issues/2"><img src="https://img.shields.io/badge/Pilot-recruiting_5_teams-22c55e?style=flat" alt="Pilot: recruiting 5 teams" /></a>
 </p>
 
 ---
@@ -41,7 +41,7 @@ PR Rulebook scans merged pull requests, finds recurring human feedback that was 
 
 ## Quick start
 
-The npm package is not published yet ([pilot](https://github.com/ofershap/pr-rulebook/issues/new) first). Run from source - Node 20+, takes two minutes:
+The npm package is not published yet ([pilot](https://github.com/ofershap/pr-rulebook/issues/2) first). Run from source - Node 20+, takes two minutes:
 
 ```bash
 git clone https://github.com/ofershap/pr-rulebook.git
