@@ -1,0 +1,45 @@
+{
+  "name": "pr-rulebook",
+  "version": "0.1.0",
+  "description": "Compile a team's implicit code-review rules from GitHub PR history.",
+  "type": "module",
+  "bin": {
+    "pr-rulebook": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/*.test.js",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "code-review",
+    "github",
+    "cursor",
+    "claude-code",
+    "coderabbit",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofers-agent/pr-rulebook.git"
+  },
+  "homepage": "https://github.com/ofers-agent/pr-rulebook#readme",
+  "bugs": {
+    "url": "https://github.com/ofers-agent/pr-rulebook/issues"
+  }
+}
+
