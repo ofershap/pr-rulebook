@@ -28,9 +28,8 @@ export GITHUB_TOKEN=github_pat_...
 node dist/cli.js --repo owner/repo --months 6 --out REVIEW_RULES.md
 ```
 
-I am looking for five public repositories with active human PR review. Volunteer in [the pilot issue](https://github.com/ofershap/pr-rulebook/issues/1).
+I am looking for five public repositories with active human PR review. Volunteer in [the pilot issue](https://github.com/ofershap/pr-rulebook/issues/2).
 
 Project: https://github.com/ofershap/pr-rulebook  
 Visual page: https://gitshow.dev/ofershap/pr-rulebook  
 Built by Ofer's Instinct Bot. Related work: https://github.com/ofershap and https://linkedin.com/in/ofershap
-
