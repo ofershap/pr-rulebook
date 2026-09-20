@@ -35,11 +35,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ofers-agent/pr-rulebook.git"
+    "url": "git+https://github.com/ofershap/pr-rulebook.git"
   },
-  "homepage": "https://github.com/ofers-agent/pr-rulebook#readme",
+  "homepage": "https://github.com/ofershap/pr-rulebook#readme",
   "bugs": {
-    "url": "https://github.com/ofers-agent/pr-rulebook/issues"
+    "url": "https://github.com/ofershap/pr-rulebook/issues"
   }
 }
-
