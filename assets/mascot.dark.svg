@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="240" viewBox="0 0 220 240" fill="none" stroke="#e6edf3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- the rulebook librarian: an open rulebook with glasses, holding a magnifying glass -->
+  <!-- book body -->
+  <path d="M45 70 h60 a12 12 0 0 1 12 12 v108 a12 12 0 0 0 -12 -12 h-60 z"/>
+  <path d="M175 70 h-60 a12 12 0 0 0 -12 12 v108 a12 12 0 0 1 12 -12 h60 z"/>
+  <path d="M45 70 v120"/>
+  <path d="M175 70 v120"/>
+  <!-- page lines -->
+  <path d="M58 92 h38"/>
+  <path d="M58 108 h38"/>
+  <path d="M58 124 h30"/>
+  <path d="M124 92 h38"/>
+  <path d="M124 108 h38"/>
+  <!-- glasses -->
+  <circle cx="82" cy="150" r="14"/>
+  <circle cx="138" cy="150" r="14"/>
+  <path d="M96 150 h28"/>
+  <path d="M68 150 l-14 -6"/>
+  <path d="M152 150 l14 -6"/>
+  <!-- eyes -->
+  <circle cx="82" cy="150" r="3" fill="#e6edf3" stroke="none"/>
+  <circle cx="138" cy="150" r="3" fill="#e6edf3" stroke="none"/>
+  <!-- smile -->
+  <path d="M102 172 q8 7 16 0"/>
+  <!-- arm + magnifying glass -->
+  <path d="M175 120 q22 6 20 26"/>
+  <circle cx="192" cy="160" r="14"/>
+  <path d="M201 172 l10 12"/>
+  <!-- checkmark seen through the lens -->
+  <path d="M186 160 l5 5 l8 -9"/>
+  <!-- bookmark ribbon -->
+  <path d="M150 70 v-24 l8 8 l8 -8 v24"/>
+</svg>
